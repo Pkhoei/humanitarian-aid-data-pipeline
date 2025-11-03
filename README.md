@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Made%20with-Python-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
 # Humanitarian Aid Data Pipeline
 
 ### 📌 Overview
