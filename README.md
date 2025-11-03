@@ -80,4 +80,24 @@ humanitarian-aid-data-pipeline/
 ### 🚀 Future Work
 - Automate data updates with GitHub Actions  
 - Add ML-based aid prediction model  
-- Integrate Power BI dashboard with live data  
+- Integrate Power BI dashboard with live data
+
+## ▶️ How to Run
+
+```bash
+# 1) set up env (optional but recommended)
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+# source .venv/bin/activate
+
+# 2) install dependencies
+pip install -r requirements.txt
+
+# 3) run ingestion & cleaning
+python scripts/ingest.py \
+  --input data/sample_humanitarian_data.csv \
+  --output data/humanitarian_clean.csv \
+  --year-min 2000 --year-max 2030
+
