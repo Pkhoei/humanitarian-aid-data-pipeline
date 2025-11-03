@@ -35,4 +35,26 @@ humanitarian-aid-data-pipeline/
 ├── docs/                 
 └── README.md
 
+## 🔄 Pipeline (ETL/ELT)
+
+1) **Ingest**
+   - Sources: UN OCHA FTS (CSV), World Bank Indicators (CSV/API)
+   - Store → `data/raw/`
+
+2) **Quality & Validation**
+   - Handle missing values, type checks, duplicates
+   - Store → `data/clean/`
+
+3) **Transform & Model**
+   - Pandas transforms / dbt models (`staging` → `core` → `marts`)
+   - Store → `models/` (or `data/processed/`)
+
+4) **Load & Analytics**
+   - Export curated tables for BI
+   - Power BI dashboard in `dashboards/`
+
+5) **Orchestration (CI/CD)**
+   - Placeholder workflow: `.github/workflows/pipeline.yml`
+   - Triggers: on push + optional daily schedule
+
 
