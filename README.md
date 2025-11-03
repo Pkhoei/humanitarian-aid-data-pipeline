@@ -56,3 +56,28 @@ This project demonstrates how data engineering and analysis can support better h
 ---
 
 ### 📁 Repository Structure
+
+
+humanitarian-aid-data-pipeline/
+├── data/
+│ ├── raw/ # raw humanitarian datasets (CSV, Excel)
+│ ├── clean/ # cleaned and validated data
+│ └── processed/ # transformed and ready-for-analysis data
+├── notebooks/ # Jupyter notebooks for analysis and exploration
+├── scripts/ # Python scripts for ETL and data processing
+├── models/ # dbt models or ML models
+├── dashboards/ # Power BI dashboards or visualization outputs
+├── docs/ # documentation, reports, screenshots
+├── .github/
+│ └── workflows/
+│ └── pipeline.yml # GitHub Actions workflow for automation
+├── requirements.txt # list of required Python packages
+└── README.md # main project documentation
+
+
+---
+
+### 🚀 Future Work
+- Automate data updates with GitHub Actions  
+- Add ML-based aid prediction model  
+- Integrate Power BI dashboard with live data  
