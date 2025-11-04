@@ -6,7 +6,7 @@
 
 ### 🧭 Overview
 An end-to-end data pipeline designed to analyze humanitarian aid distribution across countries and regions.  
-This project demonstrates how data engineering and analysis can support better humanitarian decision-making — in line with the mission of organizations like the Red Cross.
+This project demonstrates how data engineering and analysis can support better humanitarian decision-making — in line with the mission of organizations.
 
 ---
 
