@@ -31,6 +31,14 @@ This project demonstrates how data engineering and analysis can support better h
 - **Size:** ~50MB (to be updated)
 
 ---
+ HEAD
+=======
+### 📈 Visual Insight
+
+![Aid Distribution Chart](images/aid_distribution_chart.png)
+
+---
+ 2264dc1ffef3492f71f3eedaf84da652e21fdc94
 
 ### 🔄 Pipeline (ETL/ELT)
 #### 1. Ingest
@@ -115,6 +123,11 @@ After running the ETL pipeline:
 
 ---
 
+ HEAD
+=======
+
+
+ 2264dc1ffef3492f71f3eedaf84da652e21fdc94
 ### Next Steps
 - Add a Power BI dashboard visualization
 - Automate pipeline using GitHub Actions (daily)
