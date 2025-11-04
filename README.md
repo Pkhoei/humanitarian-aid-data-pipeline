@@ -35,7 +35,8 @@ This project demonstrates how data engineering and analysis can support better h
 =======
 ### 📈 Visual Insight
 
-![Aid Distribution Chart](images/aid_distribution_chart.png)
+![Aid Distribution](data/raw/images/aid_distribution_chart.png)
+
 
 ---
  2264dc1ffef3492f71f3eedaf84da652e21fdc94
