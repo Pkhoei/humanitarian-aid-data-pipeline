@@ -31,11 +31,13 @@ This project demonstrates how data engineering and analysis can support better h
 - **Size:** ~50MB (to be updated)
 
 ---
- 
-💡 **Sample Power BI Insight:**  
+ 💡 **Sample Power BI Insight:**  
 > Visualizing total humanitarian aid distribution by country (2023)
->
-> ![Aid Distribution](data/raw/images/aid_distribution_chart.png)
+
+![Aid Distribution](data/raw/images/aid_distribution_chart.png)
+
+> *Note: The dataset used here is a **sample dataset** created for demonstration purposes to showcase the data pipeline and Power BI dashboard capabilities.*
+
 
 
 ---
