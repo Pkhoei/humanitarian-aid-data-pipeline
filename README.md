@@ -33,9 +33,10 @@ This project demonstrates how data engineering and analysis can support better h
 ---
  HEAD
 =======
-### 📈 Visual Insight
-
-![Aid Distribution](data/raw/images/aid_distribution_chart.png)
+### 📈 Visual Insight> 💡 **Sample Power BI Insight:**  
+> Visualizing total humanitarian aid distribution by country (2023)
+>
+> ![Aid Distribution](data/raw/images/aid_distribution_chart.png)
 
 
 ---
